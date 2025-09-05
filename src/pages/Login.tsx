@@ -147,7 +147,7 @@ export default function Login({ navigation }: StackScreenProps<any>) {
           style={{ marginBottom: 8 }}
           onPress={handleAuthentication}
           label="Log in"
-          color="#0080ffff"
+          color="#FF8700"
         />
         <Spinner
           visible={isAuthenticating}
